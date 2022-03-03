@@ -8,7 +8,7 @@
 
 estimate_Effectively_independent_number <- function(es,ld) {
   
-  ## The correlation of estimates at two loci (i, j)í±–,ğ‘—|
+  ## The correlation of estimates at two loci
   Cor_es <- 0.4428*(ld^2) + 0.5665*abs(ld)
   diag(Cor_es)<-1
   
