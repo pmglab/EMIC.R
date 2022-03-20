@@ -7,7 +7,7 @@
 
 
 library(MASS)
-set.seed(1)
+set.seed(1234)
 
 calculate_eta_em <- function(eta, eta_cor, w, n) {
   # reorder SNPs by their eta values
